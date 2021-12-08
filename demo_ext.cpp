@@ -8,9 +8,33 @@ extern "C" {
 
 }
 
+class DemoResource
+{
+  private:
+    int data = 0;
+  
+  public:
+    void increase_data()
+    {
+      ++data;
+    }
+
+    int get_data()
+    {
+      return data;
+    }
+};
+
+DemoResource demoResource;
+
 VALUE r_test_func(VALUE self)
 {
   std::cout << "Hello, Ruby C extensions!\n";
+
+  demoResource.increase_data();
+
+  std::cout << "Test CPP part.\n";
+  std::cout << demoResource.get_data() << '\n';
 
   return Qnil;
 }

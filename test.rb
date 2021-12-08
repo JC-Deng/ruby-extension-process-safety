@@ -1,4 +1,4 @@
-require "/home/d/project/ruby/demo_ext"
+require "./demo_ext.so"
 
 ext = Demo_ext.new
 
