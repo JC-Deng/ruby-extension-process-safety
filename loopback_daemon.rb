@@ -2,10 +2,10 @@
 require "./demo_ext.so"
 require "socket"
 
-critical_service = TCPServer.open(2000)
+critical_service = TCPServer.open(2300)
 
 @data_mutex = Mutex.new
-loop do
+10.times do
     Thread.start(critical_service.accept) do |client|
         command = client.gets
         if command.include?"update_data"
@@ -20,3 +20,7 @@ loop do
         client.close
     end
 end
+
+sleep(0.5)
+puts "\nResult with loopback protection:"
+puts test_file_read
