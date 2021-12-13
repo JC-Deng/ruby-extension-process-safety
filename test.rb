@@ -1,5 +1,12 @@
-require "./demo_ext.so"
+# test.rb  
+require "./demo_ext.so"  
+  
+test_file_generate()  
+10.times do  
+    Process.fork do  
+        test_file_increase()  
+    end  
+end  
+Process.waitall
 
-ext = Demo_ext.new
-
-ext.test_func()
+puts test_file_read() 
