@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,demo_ext.so -o demo_ext.so CMakeFiles/demo_ext.dir/demo_ext.cpp.o 
