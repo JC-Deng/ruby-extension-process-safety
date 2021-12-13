@@ -1,0 +1,7 @@
+/home/deng/project/ruby-extension-process-safety/build/CMakeFiles/install/strip.dir
+/home/deng/project/ruby-extension-process-safety/build/CMakeFiles/install/local.dir
+/home/deng/project/ruby-extension-process-safety/build/CMakeFiles/install.dir
+/home/deng/project/ruby-extension-process-safety/build/CMakeFiles/list_install_components.dir
+/home/deng/project/ruby-extension-process-safety/build/CMakeFiles/rebuild_cache.dir
+/home/deng/project/ruby-extension-process-safety/build/CMakeFiles/edit_cache.dir
+/home/deng/project/ruby-extension-process-safety/build/CMakeFiles/demo_ext.dir

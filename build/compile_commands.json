@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/deng/project/ruby-extension-process-safety/build",
+  "command": "/usr/bin/c++  -Ddemo_ext_EXPORTS -I/home/deng/.rbenv/versions/2.6.0/include/ruby-2.6.0 -I/home/deng/.rbenv/versions/2.6.0/include/ruby-2.6.0/x86_64-linux  -g -fPIC   -o CMakeFiles/demo_ext.dir/demo_ext.cpp.o -c /home/deng/project/ruby-extension-process-safety/demo_ext.cpp",
+  "file": "/home/deng/project/ruby-extension-process-safety/demo_ext.cpp"
+}
+]
